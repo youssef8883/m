@@ -1,0 +1,59 @@
+body {
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.avatar {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Changed layout to vertical */
+    align-items: center; /* Center align items */
+    text-align: center;
+    background: #f2f4f8; /* Changed background color */
+    color: #2b2839;
+    border: 2px solid #5c92d4; /* Added solid border */
+    border-radius: 10px; /* Added border radius */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Added shadow */
+    transition: transform 0.3s ease-in-out; /* Added transition */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Added hover effect */
+}
+
+.name {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.job-title {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    font-size: 16px;
+}
+
+/* Additional personalization */
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: #5c92d4;
+    font-size: 20px;
+    transition: color 0.3s ease-in-out; /* Added transition */
+}
+
+.social-links a:hover {
+    color: #2b2839; /* Change color on hover */
+}
